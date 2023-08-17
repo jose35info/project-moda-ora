@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Geologica:wght@100;200;300;400;600&family=Inter:wght@100;200;400&family=Italiana&family=Lobster&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+    /* font-family: 'Alkalami', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Italiana', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif; */
+}
+header{
+    background-color: #162028;
+    padding: 10px;
+    /* box-shadow: 10px 0  20px 17px #e10808; */
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+span{
+    color: #fff;
+    font-family: 'italiana';
+    font-size: 1.6rem;
+     margin-left: 6rem ; 
+
+}
+ul{
+    display: flex;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+
+ li{
+    list-style: none;
+ }
+  a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    a:hover{
+        color:#fff;
+        transition: all 1s ;
+    }
+    .img-topo{
+        width: 100%;
+       max-width: 1435px;
+        
+    }
+    section{
+        margin-top: 6rem;
+        width: 70%;
+        margin: auto;
+    }
+    .title-section{
+        font-family: 'Italiana', sans-serif;
+        text-align: center;
+        color:  #555;
+        letter-spacing: 3px;
+        font-size: 2rem;
+
+    }
+        section p{
+            font-family: 'roboto';
+            text-align: justify;
+            font-size: 1rem;
+            color:  #555;
+            /* text-indent: 4em; */
+            margin: 3rem 0;
+            line-height: 2rem;
+            /* line-height fa com que o primeiro paragrafo recue */
+
+
+        }
+        article{
+            margin-top: 6rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            /* justify-content: space-around; */
+            
+        }
+        .div-article{
+            flex: 1 0 200px;
+            flex-direction: column;
+           
+            
+            
+           
+        }
+        .img-article{
+            width: 100%;
+            border-radius: 5px;
+        }
+            .title-article{
+                font-family: 'roboto', sans-serif; 
+                color:#003d52;
+                 text-align: center; 
+                margin-top:5px;
+                text-transform: uppercase;
+                
+                
+            }
+             .paragrafo-article{
+                font-family: 'roboto';
+                color:  #003d52;
+                 padding: 0;
+                 margin: 0; 
+                 letter-spacing: 2px;
+                 text-align: center;
+                 
+             }
+             .about{
+                margin-top: 6rem;
+                background-image: url(../imagens/bg_detalhe.png);
+                background-position: right bottom;
+                background-repeat: no-repeat;
+                /* background-repeat: no-repeat; */
+                width: 100%;
+                max-width: 1435px;
+                /* height: 500px;/* background-repeat: no-repeat; */
+                background-color: #003d53;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+             }
+             
+             .about h3{
+                font-family: 'roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 3rem;
+                text-align: left;
+                color: #fff;
+             }
+                .container{
+                    
+                    width: 80%;
+                    margin: auto;
+                    padding: 5rem 0;
+                }
+                .paragrofo-left{
+                    width: 50rem;
+                    
+                }
+
+             .about p{
+                color: #fff;
+                font-family: 'roboto';
+                text-align: left;
+             }
+                .footer{
+                    background-color: #0b171f;
+                    height: 5rem;
+                }
+                .footer,p{
+                    color: #6f8597;
+                    font-family: 'roboto';
+                    text-align: center;
+                    padding: 15px;
+                }
+@media screen and (max-width:835px) {
+    .paragrofo-left{
+        width: 20rem;
+        
+    }
+    .about h3{
+        font-family: 'roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        /* text-align: justify; */
+        color: #fff;
+     }
+
+    
+}
